@@ -20,6 +20,8 @@ body {
 }
 
 
+
+
 body.light-mode  #name {
   filter: invert(0);
   color: black;
@@ -79,14 +81,20 @@ body.light-mode #gitIcon {
 }
 
 #display {
-  background-color: #1e1e1e;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 30px);
+  height: 70px;
+  margin: 15px auto 0;
+  background-color: #434141;
   color: white;
 
   font-size: 30px;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   font-weight: bold;
   border: none;
+  border-radius: 8px;
 }
 
 #keys {
